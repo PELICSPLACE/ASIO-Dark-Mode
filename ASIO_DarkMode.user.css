@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme
-@version       1.3.0
+@version       1.3.1
 @namespace     PelicsPlace
 @author        Pelic
 ==/UserStyle== */
@@ -734,17 +734,26 @@
           border-radius: 8px;
      }
 
+     .info,
+     .text-info,
+     tr.info>td {
+          color: var(--linkage-default) !important;
+     }
+
      .success,
+     .text-success,
      tr.success>td {
           color: var(--success-default) !important;
      }
 
      .warning,
+     .text-warning,
      tr.warning>td {
           color: var(--warning-default) !important;
      }
 
      .failure,
+     .text-failure,
      tr.failure>td {
           color: var(--failure-default) !important;
      }
