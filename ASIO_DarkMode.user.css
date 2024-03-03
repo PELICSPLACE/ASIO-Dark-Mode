@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme
-@version       1.3.9
+@version       1.4.0
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
@@ -727,14 +727,14 @@
           border: 2px solid var(--dark04);
           border-radius: 2px;
      }
+     #olark-wrapper .olark-launch-button .olark-button-text,
      #olark-wrapper .olark-launch-button,
      .olark-launch-button {
-          color: var(--lite06) !important;
+          color: var(--lite05) !important;
           background: var(--linkage-default) !important;
      }
      #olark-wrapper .olark-launch-button:hover,
      .olark-launch-button:hover {
           color: var(--lite07) !important;
           background: var(--linkage-hovered) !important;
-     }
 }
