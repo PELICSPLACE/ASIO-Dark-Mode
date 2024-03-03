@@ -727,15 +727,4 @@
           border: 2px solid var(--dark04);
           border-radius: 2px;
      }
-     #olark-wrapper .olark-launch-button .olark-button-text,
-     #olark-wrapper .olark-launch-button,
-     .olark-launch-button {
-          color: var(--lite05) !important;
-          background: var(--linkage-default) !important;
-     }
-     #olark-wrapper .olark-launch-button:hover,
-     .olark-launch-button:hover {
-          color: var(--lite07) !important;
-          background: var(--linkage-hovered) !important;
-     }
 }
