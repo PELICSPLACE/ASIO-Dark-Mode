@@ -727,19 +727,4 @@
           border: 2px solid var(--dark04);
           border-radius: 2px;
      }
-     #olark-wrapper .olark-launch-button .olark-button-text,
-     #olark-wrapper .olark-launch-button,
-     .olark-launch-button,
-     .olark-button-text {
-          color: var(--lite06) !important;
-          background: var(--linkage-default) !important;
-          /* filter: brightness(75%) !important; */
-     }
-     #olark-wrapper .olark-launch-button:hover,
-     .olark-launch-button:hover,
-     .olark-button-text:hover {
-          color: var(--lite08) !important;
-          background: var(--linkage-hovered) !important;
-          /* filter: brightness(95%) !important; */
-     }
 }
