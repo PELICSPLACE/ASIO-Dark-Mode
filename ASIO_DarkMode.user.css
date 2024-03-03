@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme
-@version       1.4.1
+@version       1.4.2
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
@@ -67,14 +67,14 @@
      }
      html {
           background: var(--dark01) !important;
-          color: var(--lite06) !important;
+          color: var(--lite04) !important;
           font-size: 1em !important;
           line-height: 1.15 !important;
           -webkit-text-size-adjust: 100% !important;
      }
      body {
           background: var(--dark01) !important;
-          color: var(--lite06) !important;
+          color: var(--lite04) !important;
           margin: 0;
           margin: 0 auto;
           border: 0;
