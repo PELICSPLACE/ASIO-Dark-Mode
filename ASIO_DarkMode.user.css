@@ -737,4 +737,5 @@
      .olark-launch-button:hover {
           color: var(--lite07) !important;
           background: var(--linkage-hovered) !important;
+     }
 }
