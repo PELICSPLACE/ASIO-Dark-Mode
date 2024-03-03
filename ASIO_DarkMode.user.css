@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme
-@version       1.4.0
+@version       1.4.1
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
@@ -51,13 +51,13 @@
      }
      *::-moz-selection {
           background: var(--linkage-hovered);
-          color: var(--lite09);
+          color: var(--lite08);
           text-shadow: none;
      }
      
      *::selection {
           background: var(--linkage-hovered);
-          color: var(--lite09);
+          color: var(--lite08);
           text-shadow: none;
      }
      *,
@@ -208,25 +208,25 @@
           border-radius: 4px !important;
      }
      .label-success {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--success-default) !important;
      }
      .label-warning {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--warning-default) !important;
      }
      .label-danger {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--failure-default) !important;
      }
      a.btn-default,
      .btn-default {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--dark05) !important;
           border: 2px solid var(--dark05) !important;
           border-radius: 8px !important;
           &:hover {
-               color: var(--lite09) !important;
+               color: var(--lite08) !important;
                background: var(--dark06) !important;
                border: 2px solid var(--dark06) !important;
                border-radius: 8px !important;
@@ -234,12 +234,12 @@
      }
      a.btn-primary,
      .btn-primary {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--linkage-default) !important;
           border: 2px solid var(--linkage-default) !important;
           border-radius: 8px !important;
           &:hover {
-               color: var(--lite09) !important;
+               color: var(--lite08) !important;
                background: var(--linkage-hovered) !important;
                border: 2px solid var(--linkage-hovered) !important;
                border-radius: 8px !important;
@@ -247,12 +247,12 @@
      }
      a.btn-info,
      .btn-info {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--linkage-default) !important;
           border: 2px solid var(--linkage-default) !important;
           border-radius: 8px !important;
           &:hover {
-               color: var(--lite09) !important;
+               color: var(--lite08) !important;
                background: var(--linkage-hovered) !important;
                border: 2px solid var(--linkage-hovered) !important;
                border-radius: 8px !important;
@@ -260,12 +260,12 @@
      }
      a.btn-success,
      .btn-success {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--success-default) !important;
           border: 2px solid var(--success-default) !important;
           border-radius: 8px !important;
           &:hover {
-               color: var(--lite09) !important;
+               color: var(--lite08) !important;
                background: var(--success-hovered) !important;
                border: 2px solid var(--success-hovered) !important;
                border-radius: 8px !important;
@@ -273,12 +273,12 @@
      }
      a.btn-warning,
      .btn-warning {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--warning-default) !important;
           border: 2px solid var(--warning-default) !important;
           border-radius: 8px !important;
           &:hover {
-               color: var(--lite09) !important;
+               color: var(--lite08) !important;
                background: var(--warning-hovered) !important;
                border: 2px solid var(--warning-hovered) !important;
                border-radius: 8px !important;
@@ -286,12 +286,12 @@
      }
      a.btn-danger,
      .btn-danger {
-          color: var(--lite08) !important;
+          color: var(--lite06) !important;
           background: var(--failure-default) !important;
           border: 2px solid var(--failure-default) !important;
           border-radius: 8px !important;
           &:hover {
-               color: var(--lite09) !important;
+               color: var(--lite08) !important;
                background: var(--failure-hovered) !important;
                border: 2px solid var(--failure-hovered) !important;
                border-radius: 8px !important;
@@ -726,5 +726,20 @@
      div.forum-post div.forum-post-panel {
           border: 2px solid var(--dark04);
           border-radius: 2px;
+     }
+     #olark-wrapper .olark-launch-button .olark-button-text,
+     #olark-wrapper .olark-launch-button,
+     .olark-launch-button,
+     .olark-button-text {
+          color: var(--lite06) !important;
+          background: var(--linkage-default) !important;
+          /* filter: brightness(75%) !important; */
+     }
+     #olark-wrapper .olark-launch-button:hover,
+     .olark-launch-button:hover,
+     .olark-button-text:hover {
+          color: var(--lite08) !important;
+          background: var(--linkage-hovered) !important;
+          /* filter: brightness(95%) !important; */
      }
 }
