@@ -8,34 +8,34 @@
 ==/UserStyle== */
 @-moz-document domain("arkservers.io"), domain("arkers.io"), domain("7d2d.io"), domain("rusters.io"), domain("valheimers.com"), domain("palworlders.com"), domain("minecrafters.io") {
      :root {
-          --dark01: #0A0A0A;
-          --dark02: #141414;
-          --dark03: #1E1E1E;
-          --dark04: #292929;
-          --dark05: #333333;
-          --dark06: #3D3D3D;
-          --dark07: #474747;
-          --dark08: #525252;
-          --dark09: #5C5C5C;
-          --dark10: #666666;
-          --lite01: #747474;
-          --lite02: #838383;
-          --lite03: #919191;
-          --lite04: #9F9F9F;
-          --lite05: #AEAEAE;
-          --lite06: #BCBCBC;
-          --lite07: #CACACA;
-          --lite08: #D8D8D8;
-          --lite09: #E7E7E7;
-          --lite10: #F5F5F5;
-          --success-default: #336633;
-          --success-hovered: #448844;
-          --warning-default: #997300;
-          --warning-hovered: #CC9900;
-          --failure-default: #660000;
-          --failure-hovered: #990000;
-          --linkage-default: #336699;
-          --linkage-hovered: #4080BF;
+          --dark01:#0A0A0A;
+          --dark02:#141414;
+          --dark03:#1E1E1E;
+          --dark04:#292929;
+          --dark05:#333333;
+          --dark06:#3D3D3D;
+          --dark07:#474747;
+          --dark08:#525252;
+          --dark09:#5C5C5C;
+          --dark10:#666666;
+          --lite01:#747474;
+          --lite02:#828282;
+          --lite03:#919191;
+          --lite04:#9F9F9F;
+          --lite05:#ADADAD;
+          --lite06:#BCBCBC;
+          --lite07:#CACACA;
+          --lite08:#D8D8D8;
+          --lite09:#E7E7E7;
+          --lite10:#F5F5F5;
+          --success-default:#336633;
+          --success-hovered:#448844;
+          --warning-default:#997300;
+          --warning-hovered:#CC9900;
+          --failure-default:#660000;
+          --failure-hovered:#990000;
+          --linkage-default:#336699;
+          --linkage-hovered:#4080BF;
      }
      /****************************************/
      /* Works on Chrome, Edge, and Safari */
@@ -96,12 +96,11 @@
           margin: 0 auto;
           border: 0;
      }
+     /* ========================================================================== */
      /* Forms
-     ========================================================================== */
-     /**
-     * 1. Change the font styles in all browsers.
-     * 2. Remove the margin in Firefox and Safari.
-     */
+     /* ========================================================================== */
+     /* 1. Change the font styles in all browsers. */
+     /* 2. Remove the margin in Firefox and Safari. */
      button,
      input,
      optgroup,
@@ -138,12 +137,11 @@
           background: var(--lite06) !important;
           background-image: none !important;
      }
+     /* ========================================================================== */
      /* Grouping content
-     ========================================================================== */
-     /**
-     * 1. Add the correct box sizing in Firefox.
-     * 2. Show the overflow in Edge and IE.
-     */
+     /* ========================================================================== */
+     /* 1. Add the correct box sizing in Firefox. */
+     /* 2. Show the overflow in Edge and IE. */
      hr {
           box-sizing: content-box; /* 1 */
           height: 0; /* 1 */
@@ -154,10 +152,8 @@
           margin: 1em 0;
           padding: 0;
      }
-     /**
-     * 1. Correct the inheritance and scaling of font size in all browsers.
-     * 2. Correct the odd `em` font sizing in all browsers.
-     */
+     /* 1. Correct the inheritance and scaling of font size in all browsers. */
+     /* 2. Correct the odd `em` font sizing in all browsers. */
      pre {
           font-family: monospace; /* 1 */
           font-size: 1em; /* 2 */
