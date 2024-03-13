@@ -37,7 +37,7 @@
           --linkage-default:#336699;
           --linkage-hovered:#4080BF;
      }
-     /****************************************/
+     /*****************************************/
      /* Works on Chrome, Edge, and Safari */
      /* the scrollbar. */
 	*::-webkit-scrollbar {
@@ -65,19 +65,18 @@
 		scrollbar-color:var(--dark07) var(--dark01) !important;
 		scrollbar-width:thin !important;
 	}
-     /****************************************/
+     /*****************************************/
      *::-moz-selection {
           background: var(--linkage-hovered);
           color: var(--lite08);
           text-shadow: none;
      }
-     
      *::selection {
           background: var(--linkage-hovered);
           color: var(--lite08);
           text-shadow: none;
      }
-     /****************************************/
+     /*****************************************/
      *,
      *::before,
      *::after {
