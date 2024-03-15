@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme for arkservers.io control panel
-@version       1.4.7
+@version       1.4.8
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
@@ -43,14 +43,14 @@
 	*::-webkit-scrollbar {
 		width: 8px;
 		height: 8px;
-		background-color:var(--dark01) !important;
+		background:var(--dark01) !important;
 	}
      /* the draggable scrolling handle. */
 	*::-webkit-scrollbar-thumb {
-		background-color:var(--dark07) !important;
+		background:var(--dark07) !important;
 	}
 	*::-webkit-scrollbar-thumb:hover {
-		background-color:var(--lite01) !important;
+		background:var(--lite01) !important;
 	}
      /* the track (progress bar) of the scrollbar. */
      *::-webkit-scrollbar-track {
@@ -58,7 +58,7 @@
      }
      /* the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet. */
 	*::-webkit-scrollbar-corner {
-		background-color:var(--dark07) !important;
+		background:var(--dark07) !important;
 	}
      /* Works on Firefox */
 	* {
