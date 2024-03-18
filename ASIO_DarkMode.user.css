@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme for arkservers.io control panel
-@version       1.5.0
+@version       1.5.1
 @homepageURL   https://github.com/PELICSPLACE/ASIO-Dark-Mode
 @updateURL     https://github.com/PELICSPLACE/ASIO-Dark-Mode/raw/main/ASIO_DarkMode.user.css
 @license       CC-BY-SA-4.0
@@ -44,8 +44,8 @@
      /* Works on Chrome, Edge, and Safari */
      /* the scrollbar. */
 	*::-webkit-scrollbar {
-		width: 8px;
-		height: 8px;
+		width:8px;
+		height:8px;
 		background:var(--dark01) !important;
 	}
      /* the draggable scrolling handle. */
@@ -70,34 +70,34 @@
 	}
      /*****************************************/
      *::-moz-selection {
-          background: var(--linkage-hovered);
-          color: var(--lite08);
-          text-shadow: none;
+          background:var(--linkage-hovered);
+          color:var(--lite08);
+          text-shadow:none;
      }
      *::selection {
-          background: var(--linkage-hovered);
-          color: var(--lite08);
-          text-shadow: none;
+          background:var(--linkage-hovered);
+          color:var(--lite08);
+          text-shadow:none;
      }
      /*****************************************/
      *,
      *::before,
      *::after {
-          box-sizing: border-box;
+          box-sizing:border-box;
      }
      html {
-          background: var(--dark01) !important;
-          color: var(--lite04) !important;
-          font-size: 1em !important;
-          line-height: 1.15 !important;
-          -webkit-text-size-adjust: 100% !important;
+          background:var(--dark01) !important;
+          color:var(--lite04) !important;
+          font-size:1em !important;
+          line-height:1.15 !important;
+          -webkit-text-size-adjust:100% !important;
      }
      body {
-          background: var(--dark01) !important;
-          color: var(--lite04) !important;
-          margin: 0;
-          margin: 0 auto;
-          border: 0;
+          background:var(--dark01) !important;
+          color:var(--lite04) !important;
+          margin:0;
+          margin:0 auto;
+          border:0;
      }
      /* ========================================================================== */
      /* Forms
@@ -109,36 +109,36 @@
      optgroup,
      select,
      textarea {
-          font-family: inherit; /* 1 */
-          font-size: 100%; /* 1 */
-          line-height: 1.15; /* 1 */
-          margin: 0; /* 2 */
+          font-family:inherit; /* 1 */
+          font-size:100%; /* 1 */
+          line-height:1.15; /* 1 */
+          margin:0; /* 2 */
      }
      /* Cut Image Brightness by 50% */
      img {
-          filter: brightness(50%) !important;
+          filter:brightness(50%) !important;
      }
      /* Generic Links */
      a {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
           &:visited {
-               color: var(--linkage-default) !important;
-               text-decoration: none;
+               color:var(--linkage-default) !important;
+               text-decoration:none;
           }
           &:hover {
-                 color: var(--linkage-hovered) !important;
-                 text-decoration: underline;
+                 color:var(--linkage-hovered) !important;
+                 text-decoration:underline;
           }
      }
      div.header img {
-          filter: brightness(100%) !important;
+          filter:brightness(100%) !important;
      }
      input,
      textarea {
-          color: var(--dark03) !important;
-          background: var(--lite06) !important;
-          background-image: none !important;
+          color:var(--dark03) !important;
+          background:var(--lite06) !important;
+          background-image:none !important;
      }
      /* ========================================================================== */
      /* Grouping content
@@ -146,55 +146,55 @@
      /* 1. Add the correct box sizing in Firefox. */
      /* 2. Show the overflow in Edge and IE. */
      hr {
-          box-sizing: content-box; /* 1 */
-          height: 0; /* 1 */
-          overflow: visible; /* 2 */
-          display: block;
-          border: 0;
-          border-top: 1px solid var(--dark04) !important;
-          margin: 1em 0;
-          padding: 0;
+          box-sizing:content-box; /* 1 */
+          height:0; /* 1 */
+          overflow:visible; /* 2 */
+          display:block;
+          border:0;
+          border-top:1px solid var(--dark04) !important;
+          margin:1em 0;
+          padding:0;
      }
      /* 1. Correct the inheritance and scaling of font size in all browsers. */
      /* 2. Correct the odd `em` font sizing in all browsers. */
      pre {
-          font-family: monospace; /* 1 */
-          font-size: 1em; /* 2 */
-          color: var(--dark02) !important;
-          background: var(--lite06) !important;
-          background-image: none !important;
-          border: 1px solid var(--dark04);
-          border-radius: 4px;
+          font-family:monospace; /* 1 */
+          font-size:1em; /* 2 */
+          color:var(--dark02) !important;
+          background:var(--lite06) !important;
+          background-image:none !important;
+          border:1px solid var(--dark04);
+          border-radius:4px;
      }
      table, thead, tbody, th, tr, td, th {
-          background: var(--dark02) !important;
-          border-collapse: collapse;
-          border-spacing: 0;
-          margin: 0;
+          background:var(--dark02) !important;
+          border-collapse:collapse;
+          border-spacing:0;
+          margin:0;
      }
      a.btn-info {
-          color: var(--lite08) !important;
-          background: var(--linkage-default) !important;
-          border: 2px solid var(--linkage-default) !important;
-          border-radius: 8px !important;
+          color:var(--lite08) !important;
+          background:var(--linkage-default) !important;
+          border:2px solid var(--linkage-default) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite09) !important;
-               background: var(--linkage-hovered) !important;
-               border: 2px solid var(--linkage-hovered) !important;
-               border-radius: 8px !important;
+               color:var(--lite09) !important;
+               background:var(--linkage-hovered) !important;
+               border:2px solid var(--linkage-hovered) !important;
+               border-radius:8px !important;
           }
      }
      kbd {
-          font-family: monospace !important;
-          font-size: 1em !important;
-          color: var(--lite06) !important;
-          background: var(--dark02) !important;
+          font-family:monospace !important;
+          font-size:1em !important;
+          color:var(--lite06) !important;
+          background:var(--dark02) !important;
      }
      .server-list .server-list-item {
-          background: var(--dark02) !important;
-          border: 0;
-          border: 1px solid var(--dark06) !important;
-          border-radius: 8px;
+          background:var(--dark02) !important;
+          border:0;
+          border:1px solid var(--dark06) !important;
+          border-radius:8px;
      }
      .table>tbody>tr>td,
      .table>tbody>tr>th,
@@ -203,544 +203,544 @@
      .table>thead>tr>td,
      .table>thead>tr>th,
      .table>thead>tr {
-          background: var(--dark02) !important;
-          border: 0;
-          border-top: 1px solid var(--dark06) !important;
-          margin: 0;
+          background:var(--dark02) !important;
+          border:0;
+          border-top:1px solid var(--dark06) !important;
+          margin:0;
           &:hover {
-               background: var(--dark02) !important;
-               border: 0;
-               border-top: 1px solid var(--dark06) !important;
-               margin: 0;
+               background:var(--dark02) !important;
+               border:0;
+               border-top:1px solid var(--dark06) !important;
+               margin:0;
           }
      }
      .server-list .server-list-item h3 {
-          border: 0;
-          border-bottom: 2px solid transparent !important;
+          border:0;
+          border-bottom:2px solid transparent !important;
      }
      .server-list .server-list-item .info-box {
-          border: 0;
-          border: 1px solid var(--dark06) !important;
-          border-radius: 4px !important;
+          border:0;
+          border:1px solid var(--dark06) !important;
+          border-radius:4px !important;
      }
      .label-success {
-          color: var(--lite06) !important;
-          background: var(--success-default) !important;
+          color:var(--lite06) !important;
+          background:var(--success-default) !important;
      }
      .label-warning {
-          color: var(--lite06) !important;
-          background: var(--warning-default) !important;
+          color:var(--lite06) !important;
+          background:var(--warning-default) !important;
      }
      .label-danger {
-          color: var(--lite06) !important;
-          background: var(--failure-default) !important;
+          color:var(--lite06) !important;
+          background:var(--failure-default) !important;
      }
      a.btn-default,
      .btn-default {
-          color: var(--lite06) !important;
-          background: var(--dark05) !important;
-          border: 2px solid var(--dark05) !important;
-          border-radius: 8px !important;
+          color:var(--lite06) !important;
+          background:var(--dark05) !important;
+          border:2px solid var(--dark05) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite08) !important;
-               background: var(--dark06) !important;
-               border: 2px solid var(--dark06) !important;
-               border-radius: 8px !important;
+               color:var(--lite08) !important;
+               background:var(--dark06) !important;
+               border:2px solid var(--dark06) !important;
+               border-radius:8px !important;
           }
      }
      a.btn-primary,
      .btn-primary {
-          color: var(--lite06) !important;
-          background: var(--linkage-default) !important;
-          border: 2px solid var(--linkage-default) !important;
-          border-radius: 8px !important;
+          color:var(--lite06) !important;
+          background:var(--linkage-default) !important;
+          border:2px solid var(--linkage-default) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite08) !important;
-               background: var(--linkage-hovered) !important;
-               border: 2px solid var(--linkage-hovered) !important;
-               border-radius: 8px !important;
+               color:var(--lite08) !important;
+               background:var(--linkage-hovered) !important;
+               border:2px solid var(--linkage-hovered) !important;
+               border-radius:8px !important;
           }
      }
      a.btn-info,
      .btn-info {
-          color: var(--lite06) !important;
-          background: var(--linkage-default) !important;
-          border: 2px solid var(--linkage-default) !important;
-          border-radius: 8px !important;
+          color:var(--lite06) !important;
+          background:var(--linkage-default) !important;
+          border:2px solid var(--linkage-default) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite08) !important;
-               background: var(--linkage-hovered) !important;
-               border: 2px solid var(--linkage-hovered) !important;
-               border-radius: 8px !important;
+               color:var(--lite08) !important;
+               background:var(--linkage-hovered) !important;
+               border:2px solid var(--linkage-hovered) !important;
+               border-radius:8px !important;
           }
      }
      a.btn-success,
      .btn-success {
-          color: var(--lite06) !important;
-          background: var(--success-default) !important;
-          border: 2px solid var(--success-default) !important;
-          border-radius: 8px !important;
+          color:var(--lite06) !important;
+          background:var(--success-default) !important;
+          border:2px solid var(--success-default) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite08) !important;
-               background: var(--success-hovered) !important;
-               border: 2px solid var(--success-hovered) !important;
-               border-radius: 8px !important;
+               color:var(--lite08) !important;
+               background:var(--success-hovered) !important;
+               border:2px solid var(--success-hovered) !important;
+               border-radius:8px !important;
           }
      }
      a.btn-warning,
      .btn-warning {
-          color: var(--lite06) !important;
-          background: var(--warning-default) !important;
-          border: 2px solid var(--warning-default) !important;
-          border-radius: 8px !important;
+          color:var(--lite06) !important;
+          background:var(--warning-default) !important;
+          border:2px solid var(--warning-default) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite08) !important;
-               background: var(--warning-hovered) !important;
-               border: 2px solid var(--warning-hovered) !important;
-               border-radius: 8px !important;
+               color:var(--lite08) !important;
+               background:var(--warning-hovered) !important;
+               border:2px solid var(--warning-hovered) !important;
+               border-radius:8px !important;
           }
      }
      a.btn-danger,
      .btn-danger {
-          color: var(--lite06) !important;
-          background: var(--failure-default) !important;
-          border: 2px solid var(--failure-default) !important;
-          border-radius: 8px !important;
+          color:var(--lite06) !important;
+          background:var(--failure-default) !important;
+          border:2px solid var(--failure-default) !important;
+          border-radius:8px !important;
           &:hover {
-               color: var(--lite08) !important;
-               background: var(--failure-hovered) !important;
-               border: 2px solid var(--failure-hovered) !important;
-               border-radius: 8px !important;
+               color:var(--lite08) !important;
+               background:var(--failure-hovered) !important;
+               border:2px solid var(--failure-hovered) !important;
+               border-radius:8px !important;
           }
      }
      .panel {
-          background: var(--dark02) !important;
-          border: none !important;
+          background:var(--dark02) !important;
+          border:none !important;
      }
      .panel-info {
-          background: var(--dark02) !important;
-          border: none !important;
+          background:var(--dark02) !important;
+          border:none !important;
      }
      .panel-heading {
-          color: var(--linkage-default);
-          background: var(--dark02) !important;
-          border: 1px solid var(--dark04) !important;
-          border-radius: 4px 4px 0 0;
+          color:var(--linkage-default);
+          background:var(--dark02) !important;
+          border:1px solid var(--dark04) !important;
+          border-radius:4px 4px 0 0;
      }
      .panel-title {
-          color: var(--linkage-default);
-          background: var(--dark02) !important;
-          border: none !important;
+          color:var(--linkage-default);
+          background:var(--dark02) !important;
+          border:none !important;
      }
      .panel-body {
-          background: var(--dark02) !important;
-          border: 1px solid var(--dark04) !important;
-          border-radius: 0 0 4px 4px;
+          background:var(--dark02) !important;
+          border:1px solid var(--dark04) !important;
+          border-radius:0 0 4px 4px;
      }
      .dropdown-menu {
-          background: var(--lite06);
-          border: 1px solid var(--dark04);
+          background:var(--lite06);
+          border:1px solid var(--dark04);
      }
      .dropdown-menu>li>a:focus,
      .dropdown-menu>li>a:hover {
-          color: var(--dark02);
-          text-decoration: none;
-          background: var(--lite06);
+          color:var(--dark02);
+          text-decoration:none;
+          background:var(--lite06);
      }
      div.modboxes div.modbox:hover {
-          background: var(--dark02);
+          background:var(--dark02);
      }
      div.modboxes div.modbox {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          width: 20%;
-          padding: 1em;
-          border-radius: 5px;
-          overflow-wrap: break-word;
+          display:flex;
+          flex-direction:column;
+          justify-content:space-between;
+          width:20%;
+          padding:1em;
+          border-radius:5px;
+          overflow-wrap:break-word;
      }
      .nav .nav-tabs {
-          border: 1px solid transparent;
-          border-top-color: transparent;
-          border-right-color: transparent;
-          border-bottom-color: transparent;
-          border-left-color: transparent;
+          border:1px solid transparent;
+          border-top-color:transparent;
+          border-right-color:transparent;
+          border-bottom-color:transparent;
+          border-left-color:transparent;
      }
      .nav-tabs {
-          border-bottom: 1px solid var(--dark04);
+          border-bottom:1px solid var(--dark04);
      }
      .nav-tabs>li.active>a,
      .nav-tabs>li.active>a:focus,
      .nav-tabs>li.active>a:hover {
-          color: var(--dark05);
-          cursor: default;
-          background: var(--dark02);
-          border: 1px solid var(--dark04);
-          border-bottom-color: transparent;
+          color:var(--dark05);
+          cursor:default;
+          background:var(--dark02);
+          border:1px solid var(--dark04);
+          border-bottom-color:transparent;
      }
      .nav-tabs>li>a:focus,
      .nav-tabs>li>a:hover {
-          color: var(--linkage-hovered) !important;
-          cursor: default !important;
-          background: var(--dark02) !important;
-          border: 1px solid var(--dark04) !important;
-          border-bottom-color: transparent !important;
+          color:var(--linkage-hovered) !important;
+          cursor:default !important;
+          background:var(--dark02) !important;
+          border:1px solid var(--dark04) !important;
+          border-bottom-color:transparent !important;
      }
      .nav-pills>li.active>a,
      .nav-pills>li.active>a:focus,
      .nav-pills>li.active>a:hover,
      .nav-pills>li>a:focus,
      .nav-pills>li>a:hover {
-          color: var(--lite07) !important;
-          background: var(--linkage-default) !important;
+          color:var(--lite07) !important;
+          background:var(--linkage-default) !important;
      }
      div.header .nav li button.btn-link:hover {
-          text-decoration: none !important;
-          color: var(--lite07) !important;
-          background: var(--linkage-default) !important;
+          text-decoration:none !important;
+          color:var(--lite07) !important;
+          background:var(--linkage-default) !important;
      }
      div.header {
-          border-bottom: 2px solid var(--dark04) !important;
+          border-bottom:2px solid var(--dark04) !important;
      }
      .advanced-settings div.form-group:hover {
-          background: var(--dark01);
+          background:var(--dark01);
      }
      .form-control {
-          color: var(--dark04) !important;
-          background: var(--lite06) !important;
-          border: 1px solid var(--lite06) !important;
-          border-radius: 4px !important;
+          color:var(--dark04) !important;
+          background:var(--lite06) !important;
+          border:1px solid var(--lite06) !important;
+          border-radius:4px !important;
      }
      textarea.form-control {
-          color: var(--dark04) !important;
-          background: var(--lite06) !important;
+          color:var(--dark04) !important;
+          background:var(--lite06) !important;
      }
      div.forum-show {
-          border-radius: 3px;
-          box-shadow: 0 0 0 2px var(--dark04);
+          border-radius:3px;
+          box-shadow:0 0 0 2px var(--dark04);
      }
      div.forum-show .thread:hover {
-          background: var(--dark02);
-          cursor: pointer;
+          background:var(--dark02);
+          cursor:pointer;
      }
      div.forum-show .thread.sticky {
-          background: var(--dark02);
+          background:var(--dark02);
      }
      div.forum-show .thread,
      div.forum-show .links {
-          border-top: 2px solid var(--dark04);
+          border-top:2px solid var(--dark04);
      }
      .img-thumbnail {
-          background: var(--dark04);
-          border: 1px solid var(--dark06);
-          border-radius: 4px;
+          background:var(--dark04);
+          border:1px solid var(--dark06);
+          border-radius:4px;
      }
      .img-circle {
-          border-radius: 50%;
+          border-radius:50%;
      }
      .pager .disabled>a,
      .pager .disabled>a:focus,
      .pager .disabled>a:hover,
      .pager .disabled>span {
-          color: var(--dark04);
-          cursor: not-allowed;
-          background: var(--dark02);
+          color:var(--dark04);
+          cursor:not-allowed;
+          background:var(--dark02);
      }
      .pager li>a:focus,
      .pager li>a:hover {
-          text-decoration: none;
-          background: var(--dark02);
+          text-decoration:none;
+          background:var(--dark02);
      }
      .pager li>a,
      .pager li>span {
-          background: var(--dark02);
-          border: 1px solid var(--dark06);
-          border-radius: 15px;
+          background:var(--dark02);
+          border:1px solid var(--dark06);
+          border-radius:15px;
      }
      .list-group-item {
-          color: var(--dark03);
-          background: var(--lite06) !important;
-          background-image: none;
-          border: 1px solid var(--dark04);
+          color:var(--dark03);
+          background:var(--lite06) !important;
+          background-image:none;
+          border:1px solid var(--dark04);
      }
      .badge {
-          color: var(--lite07);
-          background: var(--dark04) !important;
-          background-image: none;
-          border: 1px solid var(--dark06);
-          border-radius: 10px;
+          color:var(--lite07);
+          background:var(--dark04) !important;
+          background-image:none;
+          border:1px solid var(--dark06);
+          border-radius:10px;
      }
      .pagination>.disabled>a,
      .pagination>.disabled>a:hover,
      .pagination>.disabled>span,
      .pagination>.disabled>span:hover {
-          color: var(--dark04);
-          cursor: not-allowed;
-          background: var(--lite07);
-          background-image: none;
-          border: 1px solid var(--dark04);
+          color:var(--dark04);
+          cursor:not-allowed;
+          background:var(--lite07);
+          background-image:none;
+          border:1px solid var(--dark04);
      }
      .pagination>.disabled>a:focus,
      .pagination>.disabled>span:focus {
-          color: var(--lite07);
-          background: var(--linkage-default);
-          border: 1px solid var(--dark06);
+          color:var(--lite07);
+          background:var(--linkage-default);
+          border:1px solid var(--dark06);
      }
      .pagination>li>a:active,
      .pagination>li>span:active {
-          color: var(--lite07);
-          text-decoration: underline;
-          background: var(--linkage-default);
-          border: 1px solid var(--dark06);
+          color:var(--lite07);
+          text-decoration:underline;
+          background:var(--linkage-default);
+          border:1px solid var(--dark06);
      }
      .pagination>li>a,
      .pagination>li>span {
-          color: var(--linkage-default);
-          text-decoration: none;
-          background: var(--lite07);
-          border: 1px solid var(--dark04);
+          color:var(--linkage-default);
+          text-decoration:none;
+          background:var(--lite07);
+          border:1px solid var(--dark04);
      }
      .radio-list-group .radio.checked,
      .radio-list-group .checkbox.checked {
-          background: var(--dark02);
-          border: 1px solid var(--dark04);
+          background:var(--dark02);
+          border:1px solid var(--dark04);
      }
      .radio-list-group .radio,
      .radio-list-group .checkbox {
-          background: var(--dark02);
-          border: 1px solid var(--dark04);
-          border-radius: 4px;
-          cursor: pointer;
+          background:var(--dark02);
+          border:1px solid var(--dark04);
+          border-radius:4px;
+          cursor:pointer;
      }
      .checkbox input[type="checkbox"],
      .checkbox-inline input[type="checkbox"],
      .radio input[type="radio"],
      .radio-inline input[type="radio"] {
-          color: var(--dark03);
-          background: var(--lite07) !important;
-          background-image: none;
+          color:var(--dark03);
+          background:var(--lite07) !important;
+          background-image:none;
      }
      .alert-info {
-          color: var(--linkage-default);
-          background: var(--dark02) !important;
-          border: 1px solid var(--dark06) !important;
+          color:var(--linkage-default);
+          background:var(--dark02) !important;
+          border:1px solid var(--dark06) !important;
      }
      .alert {
-          padding: 15px;
-          margin-bottom: 20px;
-          border: 0;
-          border: 1px solid transparent;
-          border-top-color: transparent;
-          border-right-color: transparent;
-          border-bottom-color: transparent;
-          border-left-color: transparent;
-          border-radius: 4px;
+          padding:15px;
+          margin-bottom:20px;
+          border:0;
+          border:1px solid transparent;
+          border-top-color:transparent;
+          border-right-color:transparent;
+          border-bottom-color:transparent;
+          border-left-color:transparent;
+          border-radius:4px;
      }
      div.footer-wrapper {
-          background: var(--dark01) !important;
-          border: 0 !important;
+          background:var(--dark01) !important;
+          border:0 !important;
      }
      div.footer-wrapper>ul>li>a:hover {
-          color: var(--linkage-default);
-          text-decoration: underline;
+          color:var(--linkage-default);
+          text-decoration:underline;
      }
      div.footer {
-          background: var(--dark02) !important;
-          border: 0 !important;
-          border-top: 1px solid var(--dark06) !important;
+          background:var(--dark02) !important;
+          border:0 !important;
+          border-top:1px solid var(--dark06) !important;
      }
      div.footer>ul>li>a {
-          color: var(--linkage-default);
-          text-decoration: none;
+          color:var(--linkage-default);
+          text-decoration:none;
      }
      div.footer>ul>li>a:hover {
-          color: var(--linkage-default);
-          text-decoration: underline;
+          color:var(--linkage-default);
+          text-decoration:underline;
      }
      code {
-          padding: 2px 4px;
-          font-size: 90%;
-          color: var(--failure-default);
-          background: var(--lite06);
-          border-radius: 4px;
+          padding:2px 4px;
+          font-size:90%;
+          color:var(--failure-default);
+          background:var(--lite06);
+          border-radius:4px;
      }
      code, kbd, pre, samp {
-          font-family: monospace;
+          font-family:monospace;
      }
      div.checkbox:hover {
-          background: var(--dark02) !important;
+          background:var(--dark02) !important;
      }
      .bigheader .outer-header {
-          background: var(--dark01) !important;
+          background:var(--dark01) !important;
      }
      .bigheader {
-          padding: 0;
-          position: relative;
-          background: var(--dark01) !important;
-          border-bottom: 1px solid var(--dark06) !important;
+          padding:0;
+          position:relative;
+          background:var(--dark01) !important;
+          border-bottom:1px solid var(--dark06) !important;
      }
      .bigheader::after {
-          border-radius: 6px;
-          background: var(--dark01) !important;
-          color: var(--lite06) !important;
+          border-radius:6px;
+          background:var(--dark01) !important;
+          color:var(--lite06) !important;
      }
      .col-md-4>a:not(.btn-info),
      .col-md-4>h2>a:not(.btn-info) {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
      }
      .col-md-4>a:hover:not(.btn-info),
      .col-md-4>h2>a:hover:not(.btn-info) {
-          color: var(--linkage-default) !important;
-          text-decoration: underline;
+          color:var(--linkage-default) !important;
+          text-decoration:underline;
      }
      .play-button {
-          margin: 0;
-          padding: 3em;
-          text-align: center;
+          margin:0;
+          padding:3em;
+          text-align:center;
      }
      .well-lg {
-          padding: 24px;
-          border-radius: 6px;
+          padding:24px;
+          border-radius:6px;
      }
      .well {
-          background: var(--dark01) !important;
-          color: var(--lite06) !important;
-          border: 1px solid var(--dark01);
-          border-radius: 4px;
-          -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          background:var(--dark01) !important;
+          color:var(--lite06) !important;
+          border:1px solid var(--dark01);
+          border-radius:4px;
+          -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
      }
      .modal-header {
-          background: var(--linkage-default) !important;
-          color: var(--lite07) !important;
-          border: 1px solid var(--lite07);
-          border-radius: 8px 8px 0 0
+          background:var(--linkage-default) !important;
+          color:var(--lite07) !important;
+          border:1px solid var(--lite07);
+          border-radius:8px 8px 0 0
      }
      .modal-play .modal-body {
-          background: var(--dark01) !important;
-          color: var(--lite06) !important;
+          background:var(--dark01) !important;
+          color:var(--lite06) !important;
      }
      .modal-body {
-          background: var(--dark01) !important;
-          color: var(--lite06) !important;
-          border: 1px solid var(--lite07);
-          border-radius: 0 0 8px 8px
+          background:var(--dark01) !important;
+          color:var(--lite06) !important;
+          border:1px solid var(--lite07);
+          border-radius:0 0 8px 8px
      }
      .server-list .server-list-item .info-box a.hostname {
-          color: var(--linkage-default) !important;
-          text-decoration: none !important;
+          color:var(--linkage-default) !important;
+          text-decoration:none !important;
           &:hover {
-               color: var(--linkage-hovered) !important;
-               text-decoration: underline !important;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline !important;
           }
      }
      .alert-success {
-          color: var(--dark01);
-          background: var(--success-default);
-          border-color: var(--dark01);
-          border-radius: 8px;
+          color:var(--dark01);
+          background:var(--success-default);
+          border-color:var(--dark01);
+          border-radius:8px;
      }
      .alert-warning {
-          color: var(--dark01);
-          background: var(--warning-default);
-          border-color: var(--dark01);
-          border-radius: 8px;
+          color:var(--dark01);
+          background:var(--warning-default);
+          border-color:var(--dark01);
+          border-radius:8px;
      }
      .alert-failure {
-          color: var(--dark01);
-          background: var(--failure-default);
-          border-color: var(--dark01);
-          border-radius: 8px;
+          color:var(--dark01);
+          background:var(--failure-default);
+          border-color:var(--dark01);
+          border-radius:8px;
      }
      .info,
      .text-info,
      tr.info>td {
-          color: var(--linkage-default) !important;
+          color:var(--linkage-default) !important;
      }
      .success,
      .text-success,
      tr.success>td {
-          color: var(--success-default) !important;
+          color:var(--success-default) !important;
      }
      .warning,
      .text-warning,
      tr.warning>td {
-          color: var(--warning-default) !important;
+          color:var(--warning-default) !important;
      }
      .failure,
      .text-failure,
      tr.failure>td {
-          color: var(--failure-default) !important;
+          color:var(--failure-default) !important;
      }
      .customarg {
-          color: var(--failure-default) !important;
+          color:var(--failure-default) !important;
      }
      #signup-section {
-          background: var(--dark02);
+          background:var(--dark02);
      }
      div.admin-header {
-          background: var(--dark01) !important;
-          color: var(--lite06) !important;
+          background:var(--dark01) !important;
+          color:var(--lite06) !important;
      }
      div.admin-header>ul>li>a {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
           &:hover {
-               color: var(--linkage-hovered) !important;
-               text-decoration: underline;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline;
           }
      }
      .helpdocs-edit-footer {
-          color: var(--lite06) !important;
-          border-top: 2px solid var(--dark04);
-          margin-top: 3em;
+          color:var(--lite06) !important;
+          border-top:2px solid var(--dark04);
+          margin-top:3em;
      }
      .helpdocs-edit-footer>ul>li>a,
      .helpdocs-edit-footer>ul>li>form>button.btn-link {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
-          margin: 0 auto;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
+          margin:0 auto;
           &:hover {
-               color: var(--linkage-hovered) !important;
-               text-decoration: underline;
-               margin: 0 auto;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline;
+               margin:0 auto;
           }
      }
      .helpdocs-return-footer>a {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
           &:hover {
-               color: var(--linkage-hovered) !important;
-               text-decoration: underline;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline;
           }
      }
      .helpdocs-body>p>a {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
           &:hover {
-               color: var(--linkage-hovered) !important;
-               text-decoration: underline;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline;
           }
      }
      td.name>a {
-          color: var(--linkage-default) !important;
-          text-decoration: none;
+          color:var(--linkage-default) !important;
+          text-decoration:none;
           &:hover {
-               color: var(--linkage-hovered) !important;
-               text-decoration: underline;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline;
           }
      }
      div.forum-post div.forum-post-panel::after {
-          border-left: 14px solid var(--dark04);
-          border-right: 0 solid var(--dark04);
+          border-left:14px solid var(--dark04);
+          border-right:0 solid var(--dark04);
      }
      div.forum-post div.forum-post-panel::before {
-          border-left: 15px solid var(--dark04);
-          border-right: 0 solid var(--dark04);
+          border-left:15px solid var(--dark04);
+          border-right:0 solid var(--dark04);
      }
      div.forum-post div.forum-post-panel {
-          border: 2px solid var(--dark04);
-          border-radius: 2px;
+          border:2px solid var(--dark04);
+          border-radius:2px;
      }
 }
