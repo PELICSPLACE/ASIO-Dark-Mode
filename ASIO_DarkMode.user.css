@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme for arkservers.io control panel
-@version       1.5.1
+@version       1.5.2
 @homepageURL   https://github.com/PELICSPLACE/ASIO-Dark-Mode
 @updateURL     https://github.com/PELICSPLACE/ASIO-Dark-Mode/raw/main/ASIO_DarkMode.user.css
 @license       CC-BY-SA-4.0
@@ -9,7 +9,7 @@
 @author        Pelic
 @preprocessor  stylus
 ==/UserStyle== */
-@-moz-document domain("arkservers.io"), domain("arkers.io"), domain("7d2d.io"), domain("rusters.io"), domain("valheimers.com"), domain("palworlders.com"), domain("minecrafters.io") {
+@-moz-document domain('arkservers.io'), domain('arkers.io'), domain('7d2d.io'), domain('rusters.io'), domain('valheimers.com'), domain('palworlders.com'), domain('minecrafters.io') {
      :root {
           --dark01:#0A0A0A;
           --dark02:#141414;
