@@ -127,8 +127,8 @@
                text-decoration:none;
           }
           &:hover {
-                 color:var(--linkage-hovered) !important;
-                 text-decoration:underline;
+               color:var(--linkage-hovered) !important;
+               text-decoration:underline;
           }
      }
      div.header img {
