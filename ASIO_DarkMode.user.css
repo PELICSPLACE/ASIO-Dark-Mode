@@ -43,31 +43,31 @@
      /*****************************************/
      /* Works on Chrome, Edge, and Safari */
      /* the scrollbar. */
-	*::-webkit-scrollbar {
-		width:8px;
-		height:8px;
-		background:var(--dark01) !important;
-	}
+     *::-webkit-scrollbar {
+          width:8px;
+          height:8px;
+          background:var(--dark01) !important;
+     }
      /* the draggable scrolling handle. */
-	*::-webkit-scrollbar-thumb {
-		background:var(--dark07) !important;
-	}
-	*::-webkit-scrollbar-thumb:hover {
-		background:var(--lite01) !important;
-	}
+     *::-webkit-scrollbar-thumb {
+          background:var(--dark07) !important;
+     }
+     *::-webkit-scrollbar-thumb:hover {
+          background:var(--lite01) !important;
+     }
      /* the track (progress bar) of the scrollbar. */
      *::-webkit-scrollbar-track {
           background:var(--dark02) !important;
      }
      /* the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet. */
-	*::-webkit-scrollbar-corner {
-		background:var(--dark07) !important;
-	}
+     *::-webkit-scrollbar-corner {
+          background:var(--dark07) !important;
+     }
      /* Works on Firefox */
-	* {
-		scrollbar-color:var(--dark07) var(--dark01) !important;
-		scrollbar-width:thin !important;
-	}
+     * {
+          scrollbar-color:var(--dark07) var(--dark01) !important;
+          scrollbar-width:thin !important;
+     }
      /*****************************************/
      *::-moz-selection {
           background:var(--linkage-hovered);
