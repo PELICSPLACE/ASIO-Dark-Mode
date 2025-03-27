@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          ASIO Dark Mode
 @description   Non-retina searing theme for arkservers.io control panel
-@version       1.5.2
+@version       1.5.3
 @homepageURL   https://github.com/PELICSPLACE/ASIO-Dark-Mode
 @updateURL     https://github.com/PELICSPLACE/ASIO-Dark-Mode/raw/main/ASIO_DarkMode.user.css
 @license       CC-BY-SA-4.0
@@ -41,8 +41,9 @@
           --linkage-hovered:#4080BF;
      }
      /*****************************************/
+     /*      Settings for the Scrollbar.      */
+     /*****************************************/
      /* Works on Chrome, Edge, and Safari */
-     /* the scrollbar. */
      *::-webkit-scrollbar {
           width:8px;
           height:8px;
@@ -68,6 +69,8 @@
           scrollbar-color:var(--dark07) var(--dark01) !important;
           scrollbar-width:thin !important;
      }
+     /*****************************************/
+     /*     Settings for Highlighted Text     */
      /*****************************************/
      *::-moz-selection {
           background:var(--linkage-hovered);
